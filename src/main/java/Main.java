@@ -32,8 +32,6 @@ final class Main {
 		System.out.println("Enter selected algorithm code :");
 		choice = br.readLine();
 			
-		System.out.println(accStr.isEmpty()+"    "+choice.isEmpty());
-			
 		if (accStr.isEmpty() || choice.isEmpty()) {
 			accStr = "20";
 			choice = "1";			
